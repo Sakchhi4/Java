@@ -1,9 +1,10 @@
 public class Class2 {
 string name;
 int age;
-student () {
-    name= "sakchhi";
-    age=20;
+    
+student ( String n, int a) {
+    name= "name";
+    age= a;
 }
 void display(){
     System.out.println ("Name: "+ name +",Age : " + age);
@@ -12,7 +13,7 @@ void display(){
 }
 public class Main {
     public static void main(String[] args){
-        Student student1 =newStudent();
+        Student student1 =newStudent("sakchhi",20);
         student1.display();
     }
 }
