@@ -2,7 +2,7 @@ abstract class Payment {
     float amount;
 
     Payment(float amount) {
-        this.amount = amount
+        this.amount = amount;
     }
 
     abstract float processPayment();
