@@ -1,6 +1,6 @@
 class Employee {
     String name;
-    float baseSalary
+    float baseSalary;
 
     Employee(String name, float baseSalary) {
         this.name = name;
