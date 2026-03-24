@@ -1,4 +1,4 @@
-abstract class Plan 
+abstract class Plan {
     private String patientName;
     private float baseFee;
 
